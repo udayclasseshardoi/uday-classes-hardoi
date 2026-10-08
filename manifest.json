@@ -1,0 +1,10 @@
+{
+  "name": "Uday Classes Hardoi",
+  "short_name": "Uday Classes",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1565c0",
+  "description": "Uday Classes Hardoi - Vijay Sir",
+  "icons": []
+}
