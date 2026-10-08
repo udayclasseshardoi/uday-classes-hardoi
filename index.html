@@ -6,71 +6,310 @@
 <meta name="theme-color" content="#123a70">
 <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="style.css">
-<title>Uday Classes Hardoi</title>
+<title>Uday Classes Hardoi | Vijay Sir</title>
 </head>
+
 <body>
+
 <header class="top">
   <div class="brand">
     <div class="logo">UC</div>
-    <div><h1>Uday Classes Hardoi</h1><p>Vijay Sir के साथ परीक्षा की तैयारी</p></div>
+    <div>
+      <h1>Uday Classes Hardoi</h1>
+      <p>Vijay Sir के साथ परीक्षा की तैयारी</p>
+    </div>
   </div>
   <button class="install" id="installBtn" hidden>📲 ऐप इंस्टॉल करें</button>
 </header>
 
 <section class="hero">
   <span class="tag">UP PET 2026 • UPPCS • One Day Exams</span>
+
   <h2>मेहनत सही दिशा में,<br>सफलता आपके साथ!</h2>
-  <p>Notes, MCQ, Practice Sets और Live Classes — एक ही जगह।</p>
+
+  <p>
+    Notes, MCQ, PYQ, Practice Sets और Live Classes —
+    अब एक ही जगह।
+  </p>
+
   <div class="actions">
     <a href="#live" class="btn primary">🔴 Live Class</a>
-    <button class="btn light" id="shareBtn">📤 Share App</button>
+    <a href="#pet" class="btn light">📚 UP PET 2026</a>
   </div>
 </section>
 
 <main>
-  <section class="section" id="live">
-    <div class="sectionHead"><h2>🔴 Live Class</h2><span>आज की कक्षा</span></div>
-    <div class="card livecard">
-      <div><div class="liveDot"></div><div><h3>Vijay Sir की Live Class</h3><p>Live class का लिंक यहाँ जोड़ा जाएगा।</p></div></div>
-      <a class="btn primary small" id="liveLink" href="#" target="_blank">Class Join करें</a>
-    </div>
-  </section>
 
-  <section class="section">
-    <div class="sectionHead"><h2>📚 Study Material</h2><span>Exam Focused</span></div>
-    <div class="grid">
-      <button class="subject" onclick="showMessage('UP PET Notes')">📘<b>UP PET Notes</b><small>संपूर्ण नोट्स</small></button>
-      <button class="subject" onclick="showMessage('MCQ Practice')">📝<b>MCQ Practice</b><small>Expected Questions</small></button>
-      <button class="subject" onclick="showMessage('Previous Year')">📑<b>PYQ</b><small>पिछले वर्ष के प्रश्न</small></button>
-      <button class="subject" onclick="showMessage('Mock Test')">🎯<b>Mock Test</b><small>अभ्यास परीक्षा</small></button>
-    </div>
-  </section>
+<!-- LIVE CLASS -->
+<section class="section" id="live">
 
-  <section class="section">
-    <div class="sectionHead"><h2>🎥 Video Classes</h2><span>YouTube</span></div>
-    <div class="card">
-      <h3>Uday Classes Hardoi</h3>
-      <p>YouTube पर हमारी नई classes और marathon sessions देखें।</p>
-      <a class="btn outline" href="https://www.youtube.com/" target="_blank">YouTube खोलें</a>
-    </div>
-  </section>
+  <div class="sectionHead">
+    <h2>🔴 Live Class</h2>
+    <span>Vijay Sir</span>
+  </div>
 
-  <section class="section">
-    <div class="notice">
-      <b>📢 महत्वपूर्ण सूचना</b>
-      <p>नए Notes, Practice Sets और Live Class की जानकारी इसी ऐप पर अपडेट की जाएगी।</p>
+  <div class="card livecard">
+
+    <div>
+      <div class="liveDot"></div>
+
+      <h3>Vijay Sir की Live Class</h3>
+
+      <p>
+        Live class शुरू होने पर नीचे दिए बटन से सीधे
+        YouTube Live Class में जाएँ।
+      </p>
     </div>
-  </section>
+
+    <a
+      class="btn primary small"
+      href="https://www.youtube.com/results?search_query=Uday+Classes+Hardoi"
+      target="_blank"
+      rel="noopener">
+      ▶️ Class Join करें
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- UP PET -->
+<section class="section" id="pet">
+
+  <div class="sectionHead">
+    <h2>🎯 UP PET 2026</h2>
+    <span>Exam Focused</span>
+  </div>
+
+  <div class="grid">
+
+    <a class="subject" href="#notes">
+      📘
+      <b>UP PET Notes</b>
+      <small>संपूर्ण नोट्स</small>
+    </a>
+
+    <a class="subject" href="#mcq">
+      📝
+      <b>MCQ Practice</b>
+      <small>Expected Questions</small>
+    </a>
+
+    <a class="subject" href="#pyq">
+      📑
+      <b>PYQ</b>
+      <small>Previous Year Questions</small>
+    </a>
+
+    <a class="subject" href="#mock">
+      🎯
+      <b>Mock Test</b>
+      <small>अभ्यास परीक्षा</small>
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- STUDY MATERIAL -->
+<section class="section" id="notes">
+
+  <div class="sectionHead">
+    <h2>📚 Study Material</h2>
+    <span>Uday Classes Hardoi</span>
+  </div>
+
+  <div class="materialList">
+
+    <div class="material">
+      <b>🔬 सामान्य विज्ञान</b>
+      <span>UP PET 2026 — भागवार Notes</span>
+    </div>
+
+    <div class="material">
+      <b>🇮🇳 भारतीय संविधान</b>
+      <span>Polity — परीक्षा उपयोगी Notes</span>
+    </div>
+
+    <div class="material">
+      <b>🌍 भूगोल</b>
+      <span>भारत एवं विश्व भूगोल</span>
+    </div>
+
+    <div class="material">
+      <b>💰 भारतीय अर्थव्यवस्था</b>
+      <span>Exam Oriented Notes</span>
+    </div>
+
+    <div class="material">
+      <b>🧮 गणित एवं रीजनिंग</b>
+      <span>Practice Sets एवं PYQ</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- MCQ -->
+<section class="section" id="mcq">
+
+  <div class="card highlight">
+
+    <h3>📝 MCQ Practice</h3>
+
+    <p>
+      UP PET 2026 के लिए महत्वपूर्ण Expected Questions,
+      Practice Sets और Marathon Questions।
+    </p>
+
+    <span class="coming">जल्द जोड़ा जाएगा</span>
+
+  </div>
+
+</section>
+
+
+<!-- PYQ -->
+<section class="section" id="pyq">
+
+  <div class="card">
+
+    <h3>📑 Previous Year Questions</h3>
+
+    <p>
+      UP PET और अन्य One Day Exams के महत्वपूर्ण
+      Previous Year Questions।
+    </p>
+
+    <span class="coming">जल्द जोड़ा जाएगा</span>
+
+  </div>
+
+</section>
+
+
+<!-- MOCK TEST -->
+<section class="section" id="mock">
+
+  <div class="card">
+
+    <h3>🎯 Online Mock Test</h3>
+
+    <p>
+      परीक्षा जैसी तैयारी के लिए Online Mock Test।
+    </p>
+
+    <span class="coming">जल्द जोड़ा जाएगा</span>
+
+  </div>
+
+</section>
+
+
+<!-- YOUTUBE -->
+<section class="section">
+
+  <div class="sectionHead">
+    <h2>🎥 YouTube Classes</h2>
+    <span>Free Classes</span>
+  </div>
+
+  <div class="card">
+
+    <h3>Uday Classes Hardoi</h3>
+
+    <p>
+      नई Classes, Marathon और परीक्षा की तैयारी के
+      Videos देखें।
+    </p>
+
+    <a
+      class="btn outline"
+      href="https://www.youtube.com/results?search_query=Uday+Classes+Hardoi"
+      target="_blank"
+      rel="noopener">
+      ▶️ YouTube खोलें
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- NOTICE -->
+<section class="section">
+
+  <div class="notice">
+
+    <b>📢 महत्वपूर्ण सूचना</b>
+
+    <p>
+      नई Live Class, Notes, Practice Sets और
+      परीक्षा Updates इसी वेबसाइट पर जोड़े जाएंगे।
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="section">
+
+  <div class="card">
+
+    <h3>👨‍🏫 Vijay Sir</h3>
+
+    <p>
+      <strong>Uday Classes Hardoi</strong> का उद्देश्य
+      UP PET, UPPCS और अन्य One Day Exams की
+      तैयारी को सरल और परीक्षा-केंद्रित बनाना है।
+    </p>
+
+  </div>
+
+</section>
+
 </main>
 
+
+<!-- BOTTOM MENU -->
 <nav class="bottom">
-  <a href="#">🏠<span>Home</span></a>
-  <a href="#live">🔴<span>Live</span></a>
-  <a href="#" id="bottomShare">📤<span>Share</span></a>
-  <a href="https://www.youtube.com/" target="_blank">▶️<span>YouTube</span></a>
+
+  <a href="#">
+    🏠
+    <span>Home</span>
+  </a>
+
+  <a href="#live">
+    🔴
+    <span>Live</span>
+  </a>
+
+  <button id="bottomShare">
+    📤
+    <span>Share</span>
+  </button>
+
+  <a
+    href="https://www.youtube.com/results?search_query=Uday+Classes+Hardoi"
+    target="_blank"
+    rel="noopener">
+
+    ▶️
+    <span>YouTube</span>
+
+  </a>
+
 </nav>
 
+
 <div class="toast" id="toast"></div>
+
 <script src="app.js"></script>
+
 </body>
 </html>
