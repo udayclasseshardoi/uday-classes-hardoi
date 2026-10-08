@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#123a70">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<title>Uday Classes Hardoi</title>
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <div class="logo">UC</div>
+    <div><h1>Uday Classes Hardoi</h1><p>Vijay Sir के साथ परीक्षा की तैयारी</p></div>
+  </div>
+  <button class="install" id="installBtn" hidden>📲 ऐप इंस्टॉल करें</button>
+</header>
+
+<section class="hero">
+  <span class="tag">UP PET 2026 • UPPCS • One Day Exams</span>
+  <h2>मेहनत सही दिशा में,<br>सफलता आपके साथ!</h2>
+  <p>Notes, MCQ, Practice Sets और Live Classes — एक ही जगह।</p>
+  <div class="actions">
+    <a href="#live" class="btn primary">🔴 Live Class</a>
+    <button class="btn light" id="shareBtn">📤 Share App</button>
+  </div>
+</section>
+
+<main>
+  <section class="section" id="live">
+    <div class="sectionHead"><h2>🔴 Live Class</h2><span>आज की कक्षा</span></div>
+    <div class="card livecard">
+      <div><div class="liveDot"></div><div><h3>Vijay Sir की Live Class</h3><p>Live class का लिंक यहाँ जोड़ा जाएगा।</p></div></div>
+      <a class="btn primary small" id="liveLink" href="#" target="_blank">Class Join करें</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="sectionHead"><h2>📚 Study Material</h2><span>Exam Focused</span></div>
+    <div class="grid">
+      <button class="subject" onclick="showMessage('UP PET Notes')">📘<b>UP PET Notes</b><small>संपूर्ण नोट्स</small></button>
+      <button class="subject" onclick="showMessage('MCQ Practice')">📝<b>MCQ Practice</b><small>Expected Questions</small></button>
+      <button class="subject" onclick="showMessage('Previous Year')">📑<b>PYQ</b><small>पिछले वर्ष के प्रश्न</small></button>
+      <button class="subject" onclick="showMessage('Mock Test')">🎯<b>Mock Test</b><small>अभ्यास परीक्षा</small></button>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="sectionHead"><h2>🎥 Video Classes</h2><span>YouTube</span></div>
+    <div class="card">
+      <h3>Uday Classes Hardoi</h3>
+      <p>YouTube पर हमारी नई classes और marathon sessions देखें।</p>
+      <a class="btn outline" href="https://www.youtube.com/" target="_blank">YouTube खोलें</a>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="notice">
+      <b>📢 महत्वपूर्ण सूचना</b>
+      <p>नए Notes, Practice Sets और Live Class की जानकारी इसी ऐप पर अपडेट की जाएगी।</p>
+    </div>
+  </section>
+</main>
+
+<nav class="bottom">
+  <a href="#">🏠<span>Home</span></a>
+  <a href="#live">🔴<span>Live</span></a>
+  <a href="#" id="bottomShare">📤<span>Share</span></a>
+  <a href="https://www.youtube.com/" target="_blank">▶️<span>YouTube</span></a>
+</nav>
+
+<div class="toast" id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
